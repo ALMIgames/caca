@@ -1,0 +1,19 @@
+{
+    "name": "albert/test",
+    "description": "asd",
+    "authors": [
+        {
+            "name": "albert",
+            "email": "albertxerta93@hotmail.com"
+        }
+    ],
+
+    "require": {
+        "twbs/bootstrap": "~3.3",
+	    "bootstrap-app/apache": "0.1.*"
+    },
+
+    "autoload": {
+      "psr-4": {"com\\iesebre\\dam2\\pa201415\\albert\\": "src/"}
+    }
+}
